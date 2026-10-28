@@ -45,7 +45,8 @@ Clases CSS tradicionales o CSS Modules: Usando className="mi-clase".
 Librerías de utilidades: Como Tailwind CSS, donde solo agregarías la clase className="mt-5".
 
 ¿Te gustaría ver cómo aplicarlo de alguna de estas otras formas?
-
+**Que modifique?** Omiti el codigo entregado por la IA y use el margintop
+**reflexion** Al momento de ver al Kevin haciendo la pagina desde 0 me dio intriga de como hacer que tengan los espacios entre lineas, pero no sabia como asi que lo busque, pienso que es bastante util para la apariencia de la pagina
 
 ## 2. Como puedo insertar links en REACT?
 
@@ -103,6 +104,9 @@ Resumen rápido:
 Usa ```jsx <Link to="/ruta"> ```de react-router-dom para navegar dentro de tu propia aplicación.
 
 Usa ```jsx  <a href="https://...">``` para enlaces externos a otras páginas web.
+
+**Que modifique?** solo tome en cuenta el que decia para links externos al sitio.
+**Reflexion** Entendia el como hacer un ancla dentro de la pagina, pero desconocia el commo insertar un link desde fuera.
 
 (en esta necesitaba el ```jsx <a href> </a> ```)
 
