@@ -8,7 +8,7 @@ Para aplicar un margen superior directamente a una etiqueta HTML en React, tiene
 
 1. Usando un objeto JavaScript (Forma más común)
 En React, el atributo style no recibe una cadena de texto (como en HTML tradicional), sino un objeto JavaScript. Las propiedades CSS con guiones medios (como margin-top) se escriben en formato camelCase (marginTop).
-
+``` jsx
 JavaScript
 function MiComponente() {
   return (
@@ -17,11 +17,12 @@ function MiComponente() {
     </div>
   );
 }
+```
 Nota sobre números: Si el valor es solo un número (como 0), puedes pasarlo directamente: style={{ marginTop: 0 }}. Si usas unidades (px, rem, %, vh), debes indicarlas como un string: "20px", "2rem".
 
 2. Usando una variable de estilo (Para código más limpio)
 Si necesitas múltiples estilos o quieres mantener tu JSX más ordenado, puedes definir el objeto de estilos antes del return:
-
+```jsx
 JavaScript
 function MiComponente() {
   const estilogrande = {
@@ -35,6 +36,7 @@ function MiComponente() {
     </h1>
   );
 }
+```
 💡 Alternativas recomendadas
 Aunque el estilo en línea (style={{ ... }}) funciona perfectamente para casos rápidos o dinámicos, en proyectos reales de React se suele preferir:
 
@@ -56,7 +58,7 @@ Aquí te explico las dos formas principales:
 Si estás usando React Router (el estándar para manejar rutas en React), debes usar el componente <Link> en lugar de la etiqueta HTML tradicional <a>. Esto evita que la página se recargue por completo, haciendo que la navegación sea rápida y fluida (Single Page Application).
 
 Primero, asegúrate de tener instalado y configurado react-router-dom:
-
+```jsx
 JavaScript
 import { Link } from 'react-router-dom';
 
@@ -70,13 +72,13 @@ function MiComponente() {
     </nav>
   );
 }
-
 export default MiComponente;
+```
 2. Enlaces externos (Páginas de terceros o fuera de tu app)
 Para sitios web externos, sí debes usar la etiqueta HTML estándar <a>.
 
 💡 Consejo de seguridad: Cuando uses enlaces externos que abren en una pestaña nueva (target="_blank"), es una buena práctica añadir rel="noopener noreferrer" para proteger tu sitio contra vulnerabilidades de rendimiento y seguridad.
-
+```jsx
 JavaScript
 function MiComponente() {
   return (
@@ -96,6 +98,7 @@ function MiComponente() {
 }
 
 export default MiComponente;
+```
 Resumen rápido:
 Usa <Link to="/ruta"> de react-router-dom para navegar dentro de tu propia aplicación.
 
