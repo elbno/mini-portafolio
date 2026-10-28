@@ -35,3 +35,28 @@ mini-potafolio
 └── USO_IA.md       
 
 (esta vez si hice el readme a mano)
+
+```
+# Mi Portafolio Digital
+
+Portafolio web desarrollado con **React**, **Vite**, **React Router DOM** y estilos personalizados utilizando la metodología **BEM**.
+
+##  Requisitos previos
+Asegúrate de tener instalado en tu equipo:
+- [Node.js](https://nodejs.org/) (versión 18 o superior recomendada)
+- Git
+
+##  Instrucciones de inicio y ejecución
+
+Sigue estos pasos para clonar y ejecutar el proyecto en tu entorno local:
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone <url-de-tu-repositorio>
+   cd nombre-del-repositorio
+2.
+   npm install
+3.
+   npm run dev
+
+(Esta parte ya si la hice con IA porque no me fije que estaba esto en los requerimientos)
