@@ -1,7 +1,7 @@
-Modelo IA utilizado: Geminis
+# Modelo IA utilizado: Geminis
 
 
-1. Como le doy un margen superior directamente a una etiqueta HTML en React?
+## 1. Como le doy un margen superior directamente a una etiqueta HTML en React?
 
 Respuesta:
 Para aplicar un margen superior directamente a una etiqueta HTML en React, tienes principalmente dos formas utilizando el atributo style:
@@ -45,7 +45,7 @@ Librerías de utilidades: Como Tailwind CSS, donde solo agregarías la clase cla
 ¿Te gustaría ver cómo aplicarlo de alguna de estas otras formas?
 
 
-2. Como puedo insertar links en REACT?
+## 2. Como puedo insertar links en REACT?
 
 Respuesta:
 En React, la forma de insertar un enlace depende de si quieres navegar entre páginas de tu propia aplicación (sin recargar la página) o si quieres ir a un sitio web externo.
