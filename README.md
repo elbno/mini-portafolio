@@ -25,7 +25,7 @@ mini-potafolio
 │   │  ├──Header.jsx
 │   │  ├──Layout.jsx
 │   │  └── TarjetaPoyecto.jsx 
-│   ├── pages
+│   └── pages
 │       ├──Contacto.jsx
 │       ├──Habilidades.jsc
 │       ├──Inicio.jsx
