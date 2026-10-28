@@ -14,7 +14,7 @@ Portafolio creado con herramienta de REACT.
 Este portafolio fue creado a partir de un wireframe entregado por el profesor, se utilizo REACT para el desarrollo de este trabajo
 
 ## Estructura de archivos del proyecto (simplificado y solo los principales por que son bastantes)
-
+```text
 mini-potafolio
 │
 ├──src/
