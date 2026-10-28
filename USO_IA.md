@@ -100,9 +100,9 @@ function MiComponente() {
 export default MiComponente;
 ```
 Resumen rápido:
-Usa <Link to="/ruta"> de react-router-dom para navegar dentro de tu propia aplicación.
+Usa ```jsx <Link to="/ruta"> ```de react-router-dom para navegar dentro de tu propia aplicación.
 
-Usa <a href="https://..."> para enlaces externos a otras páginas web.
+Usa ```jsx  <a href="https://...">``` para enlaces externos a otras páginas web.
 
-(en esta necesitaba el <a href> </a>)
+(en esta necesitaba el ```jsx <a href> </a> ```)
 
